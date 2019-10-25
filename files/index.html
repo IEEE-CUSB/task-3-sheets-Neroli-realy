@@ -1,0 +1,117 @@
+<!DOCTYPE html><!-- The new doctype -->
+<html lang="en">
+<head>
+    <title>Register </title>
+    <meta charset="utf-8">
+
+    <!-- Linking styles -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/menu.css" type="text/css" media="screen"> 
+    <link rel="stylesheet" href="test.css" type="text/css" media="screen"> 
+
+    <!-- Linking scripts -->
+    <!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+  
+
+    <!-- Defining main logo -->
+    <div class="logo">
+        <a href="" title="Anime theme"><img src="images/logo.png" /></a>
+    </div>
+
+    <section class="content"><!-- Defining the main content section of the page -->
+
+        <!-- navigation menu -->
+       
+        <div class="clear"></div>
+
+        
+            
+
+        </div>
+       <!-- <div class="column">
+          
+        </div>-->
+        <div class="sidebar">
+          
+            <div>
+                <h2>Your Info:</h2>
+                <ul>
+                  <form method="POST" action="/reg" class="participantsForm"  >
+                    <div class="personalInformation informationSection">
+                    
+                      <div class="input-field">
+                        <label for="pfname">Name</label>
+                       <li> <input id="pfname" type="text" class="validate" name="pfname"></li>
+                      </div>
+                      <div class="input-field">
+                        <label for="pfemail">Email</label>
+                        <li> <input id="pfemail" name="pfemail" type="email" class="validate" required> </li>
+                      </div>
+                      <div class="input-field">
+                        <label for="pfphone">Mobile number</label>
+                       <li> <input id="pfphone" name="pfphone" type="number" class="validate"></li>
+                      </div>
+                      <div class="input-field">
+                        <label for="pfuniversity">University</label>
+                       <li> <input id="pfuniversity" name="pfuniversity" type="text" class="validate"></li>
+                      </div>
+                      <div class="input-field">
+                        <label for="pffaculty">Faculty</label>
+                        <li><input id="pffaculty" name="pffaculty" type="text" class="validate"></li>
+                      </div>
+                      <div class="input-field">
+                        <label for="pfgraduationYear">Graduation year</label>
+                        <li><input id="pfgraduationYear" name="pfgraduationYear" type="number" class="validate"></li>
+                      </div>
+                    </div>
+            
+                    <div class="additionalQuestions informationSection">
+                      <h5>Additional questions</h5>
+                      <label for="pfworkshop">Chose your Workshop Preference</label> 
+                      <div class="input-field">
+                       <li><select id="pfworkshop" name="pfworkshop" margin="0 auto"> 
+            
+                         
+                         <option value="Web Workshop">Web Development</option>
+                         <option value="Android Workshop">Android Development</option>
+                         <option value="Embedded Workshop">Embedded Diploma</option>
+                         <option value="Arduino Workshops">Arduino</option>
+                         <option value="PLC + Classic Control Workshop">PLC + Classic Control</option>
+                         <option value="Distribution Workshop">Distribution Diploma</option>
+                         <option value="VHDL Workshops">VHDL</option>
+                         <option value="Cadence Workshop">Analog Design</option>
+                         <option value="Logic Design Workshop">Logic Design</option>
+                       </select></li>
+                        
+                     </div> 
+                      <div class="input-field">
+                        <label for="pfreasonWhy">Why would you like to join this workshop?</label>
+                        <li><input id="pfreasonWhy" name="pfreasonWhy" type="text" class="validate"></li>
+                      </div>
+                      <div class="input-field">
+                        <label for="pfnotes">Notes you would like to mention</label>
+                        <li><input id="pfnotes" name="pfnotes" type="text" class="validate"></li>
+                      </div>
+                    </div>
+            
+                    <div class="search">
+                      <input type="submit" value="Submit" />
+                    </div>
+                    </form>
+                </ul>
+            </div>
+
+            
+        
+    </section>
+
+    <footer><!-- Defining the footer section of the page -->
+        <div>Neroli &copy; 2019 &nbsp;&nbsp;</div>
+    </footer>
+</body>
+</html>
